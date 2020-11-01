@@ -1,0 +1,12 @@
+body {
+    padding: 0 1em;
+}
+
+.CodeMirror {
+    font-size: 14px;
+    border: rgb(163, 163, 163) 1px solid;
+}
+
+#actions {
+    margin-top: 2em;
+}

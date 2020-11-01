@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Form Filler",
+  "description": "Fill form with right click",
+  "version": "1.0",
+  
+  "permissions": ["activeTab", "storage"],
+
+  "web_accessible_resources": ["menu.css"],
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["js/content.js"],
+      "run_at": "document_end"
+    }
+  ],
+
+  "options_page": "options.html",
+
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "images/logo.png",
+    "default_title": "Form Filler"
+  }
+}
