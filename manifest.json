@@ -6,7 +6,7 @@
   
   "permissions": ["activeTab", "storage"],
 
-  "web_accessible_resources": ["menu.css"],
+  "web_accessible_resources": ["css/menu.css"],
 
   "content_scripts": [
     {

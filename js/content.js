@@ -69,5 +69,5 @@ loadData().then(data => {
 var style = document.createElement('link');
 style.rel = 'stylesheet';
 style.type = 'text/css';
-style.href = chrome.extension.getURL('menu.css');
+style.href = chrome.extension.getURL('css/menu.css');
 (document.head || document.documentElement).appendChild(style);
